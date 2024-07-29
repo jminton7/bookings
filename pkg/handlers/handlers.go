@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/jminton7/golang-bookings/pkg/config"
-	"github.com/jminton7/golang-bookings/pkg/models"
-	"github.com/jminton7/golang-bookings/pkg/render"
+	"github.com/jminton7/bookings/pkg/config"
+	"github.com/jminton7/bookings/pkg/models"
+	"github.com/jminton7/bookings/pkg/render"
 )
 
 // Repo the repository used by the handlers

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/jminton7/golang-bookings/pkg/config"
-	"github.com/jminton7/golang-bookings/pkg/handlers"
-	"github.com/jminton7/golang-bookings/pkg/render"
+	"github.com/jminton7/bookings/pkg/config"
+	"github.com/jminton7/bookings/pkg/handlers"
+	"github.com/jminton7/bookings/pkg/render"
 )
 
 const portNumber = ":8080"
@@ -19,10 +19,10 @@ var session *scs.SessionManager
 
 // main is the main function
 func main() {
-
-	//change this to true when in production
+	// change this to true when in production
 	app.InProduction = false
 
+	// set up the session
 	session = scs.New()
 	session.Lifetime = 24 * time.Hour
 	session.Cookie.Persist = true
