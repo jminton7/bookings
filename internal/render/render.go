@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/jminton7/bookings/pkg/config"
-	"github.com/jminton7/bookings/pkg/models"
+	"github.com/jminton7/bookings/internal/config"
+	"github.com/jminton7/bookings/internal/models"
 	"github.com/justinas/nosurf"
 )
 
