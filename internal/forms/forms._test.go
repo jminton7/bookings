@@ -73,8 +73,8 @@ func TestForm_MinLength(t *testing.T){
 	}
 
 	isError := form.Errors.Get("X")
-	if isError == "" {
-		t.Error("should have an error but got one")
+	if isError != "" {
+		t.Error("shouldnt have an error but got one")
 	}
 
 	postedData = url.Values{}
