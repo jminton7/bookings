@@ -22,4 +22,5 @@ The repository for [Building Modern Web Applications with Go](https://www.udemy.
 ### Soda
 
 - To create a migration file. "soda generate fizz CreateUserTable"
-- To start the migration. "soda migrate"
+- To start the migration. "soda migrate" / "soda migrate down"
+- Reset the table. "soda reset"
