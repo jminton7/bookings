@@ -9,6 +9,11 @@ The repository for [Building Modern Web Applications with Go](https://www.udemy.
 
 # Useful commands
 
+### Setup
+
+- "go mod init github.com/jminton7/{projectName}"
+- install a package "go get {name}"
+
 ### Running
 
 - running, terminal from golang-bookings and run "go run ./cmd/web/." -> with existance of run.bat -> ".\run.bat"
@@ -23,4 +28,4 @@ The repository for [Building Modern Web Applications with Go](https://www.udemy.
 
 - To create a migration file. "soda generate fizz CreateUserTable"
 - To start the migration. "soda migrate" / "soda migrate down"
-- Reset the table. "soda reset"
+- Reset the database. "soda reset"
