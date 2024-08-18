@@ -1,10 +1,13 @@
 package driver
 
+//TO DO - upgrade to v5
 import (
 	"database/sql"
 	"time"
 
-	_ "github.com/jackc/pgx/v5"
+	_ "github.com/jackc/pgconn"
+	_ "github.com/jackc/pgx/v4"
+	_ "github.com/jackc/pgx/v4/stdlib"
 )
 
 //DB holds the database connection pool
