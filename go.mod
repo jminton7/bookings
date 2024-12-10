@@ -26,5 +26,6 @@ require (
 	github.com/jmoiron/sqlx v1.4.0 // indirect
 	github.com/justinas/nosurf v1.1.1
 	github.com/spf13/cobra v1.8.1 // indirect
+	github.com/xhit/go-simple-mail/v2 v2.16.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 )

@@ -22,7 +22,7 @@ The repository for [Building Modern Web Applications with Go](https://www.udemy.
 
 - testing, terminal from golang-bookings and run "go test ./... -v"
 - test coverage, terminal from golang-bookings/cmd/web and run "go test -cover"
-- test coverage with http page showing where tests are missing, terminal golang-bookings/cmd/web and run "go test -coverprofile=coverage.out && go tool cover -html=coverage.out"
+- test coverage with http page showing where tests are missing, terminal golang-bookings/cmd/web and run "go test -coverprofile=coverage.out && go tool cover -html=coverage.out" (NOTE : ONLY CMD OR GIBASH NOT POWERSHELL)
 
 ### Soda
 
